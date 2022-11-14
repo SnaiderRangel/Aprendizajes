@@ -9,10 +9,13 @@
 body{
     background-color: #f4f4f6;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.cont__sectForm{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
 }
 .section__form{
     max-width: 500px;
