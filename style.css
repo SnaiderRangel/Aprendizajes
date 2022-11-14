@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
 :root{
     --firts-color:#780dea;
 }
@@ -9,8 +10,9 @@
 body{
     background-color: #f4f4f6;
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Sono', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-size: 1em; */
 }
 nav{
     width: 100%;
@@ -19,7 +21,7 @@ nav{
     justify-content: space-between;
     background-color: var(--firts-color);
     gap: 1em;
-    padding: 2em;
+    padding: 1.4em;
 }
 .nav__logo{
     color: #fff;
@@ -36,6 +38,20 @@ nav{
 .nav__link:hover{
     background-color: #fff;
     color: var(--firts-color);
+}
+.section__open{
+    padding: 0.8em;
+}
+.btn{
+    background-color: var(--firts-color);
+    padding: .6em 1.2em;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+}
+.textOpen{
+    margin-bottom: 1em;
+    opacity: .7;
 }
 .cont__sectForm{
     height: 100vh;
